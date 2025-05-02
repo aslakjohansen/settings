@@ -1,0 +1,23 @@
+# locale
+LC_NUMERIC="en_US.UTF-8"
+
+# user bin
+export PATH=$HOME/bin
+
+# rust
+export PATH=$HOME/.cargo/bin:$PATH
+
+# erlang/elixir
+export PATH=$HOME/.asdf/shims:$PATH
+export ASDF_DIR=/home/aslak/.asdf
+export ERL_AFLAGS="-kernel shell_history enabled"
+
+# aliases
+alias please="sudo"
+alias grep="grep --color"
+alias egrep="egrep --color"
+alias syslog="journalctl -f"
+alias gedit="gedit --new-window"
+alias pdfjoin="pdfjam --fitpaper true --rotateoversize true --suffix joined "
+alias zed="flatpak run dev.zed.Zed"
+
